@@ -1,0 +1,62 @@
+# ========================
+# .NET / C# specific
+# ========================
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.vs/
+*.vscode/
+TestResults/
+*.ncrunch*
+*.resharper
+_ReSharper.Caches/
+
+# ========================
+# Node / Angular specific
+# ========================
+node_modules/
+dist/
+npm-debug.log*
+yarn-error.log*
+package-lock.json
+.angular/
+
+# ========================
+# Visual Studio temporary files
+# ========================
+*.log
+*.tlog
+*.vspscc
+*.vssscc
+*.scc
+*.cache
+*.pdb
+*.opendb
+*.dbmdl
+*.bak
+*.backup
+*.tmp
+*.temp
+
+# ========================
+# Environment / Config
+# ========================
+.env
+appsettings.Local.json
+appsettings.Development.json
+
+# ========================
+# OS generated files
+# ========================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ========================
+# Docker
+# ========================
+docker-compose.override.yml
+*.env
